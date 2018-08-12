@@ -1,0 +1,18 @@
+[   
+{
+	"1":{
+			"dest1":{"destination": "172.16.0.2","next_hop": "172.16.0.2","interface": "1"},
+			"dest2":{"destination": "10.2.0.2","next_hop": "10.2.0.2","interface": "3"},
+			"dest5":{"destination": "10.2.0.4","next_hop": "10.2.0.4","interface": "3"},
+			"dest3":{"destination": "192.168.1.2","next_hop": "192.168.1.2","interface": "2"},
+			"dest4":{"destination": "10.3.0.2","next_hop": "10.2.0.3","interface": "3"}
+	},
+	"2":{
+			"dest1":{"destination": "172.16.0.2","next_hop": "10.2.0.1","interface": "1"},
+			"dest2":{"destination": "10.2.0.2","next_hop": "10.2.0.2","interface": "1"},
+			"dest5":{"destination": "10.2.0.4","next_hop": "10.2.0.4","interface": "1"},
+			"dest3":{"destination": "192.168.1.2","next_hop": "10.2.0.1","interface": "1"},
+			"dest4":{"destination": "10.3.0.2","next_hop": "10.3.0.2","interface": "2"}
+	}
+}
+]
